@@ -5,7 +5,23 @@
     <title>Connexion</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="flex items-center justify-center">
+    <div class="w-1/2 h-96 border-2 items-center justify-center mx-auto">
+        <div class="flex items-center justify-center">
+            <img class="w-24 h-24 mt-2 " src="assets/logo.png" alt="">
+        </div>
+        <!-- <h2 class="">Connexion</h2> -->
+        <form class="w-1/2 mx-auto flex-col items-center justify-center flex" action="" >
+            <div class="flex-col w-full mb-2">
+                <label class="" for="email">Login</label>
+                <input class="border-2 w-full mt-2 p-1 rounded" type="text">
+            </div>
+            <div class="flex-col w-full">
+                <label class="" for="email">Password</label>
+                <input class="border-2 w-full mt-2 p-1 rounded" type="text">
+            </div>
+            <button class=" w-40 h-10 rounded  bg-sky-900 text-white mt-2">Se connecter</button>
+        </form>
+    </div>
 </body>
 </html>
