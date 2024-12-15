@@ -14,7 +14,7 @@ body{
 
 .sidebar{
     width:230px;
-    position: fixed ;
+    /* position: fixed ; */
     margin: 62px 0px;
     /* border-radius: 16px; */
     height: 89vh;
