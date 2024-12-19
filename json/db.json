@@ -1,0 +1,14 @@
+[
+    {
+        "Titre": "ALgo",
+        "Date": "12/02/202",
+        "HeureDebut": "20heures",
+        "HeureFin": "21heures"
+    },
+    {
+        "Titre": "PHP",
+        "Date": "12/02/202",
+        "HeureDebut": "19heures",
+        "HeureFin": "20heures"
+    }
+]
