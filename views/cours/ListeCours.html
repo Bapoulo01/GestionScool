@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Cours</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../public/css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -16,7 +16,7 @@
             <h2 class="text-white text-lg font-bold">Ecole 221</h2>
         </div>
         <div class="mx-5">
-            <img class="w-10 h-10" src="assets/user.png" alt="">
+            <img class="w-10 h-10" src="../../public/assets/user.png" alt="">
         </div>
     </header>
     <div class="w-full flex h-full fixed">
@@ -24,7 +24,7 @@
             <!--sidebar header-->
             <header class="sidebar-header">
                 <a href="#" class="sidebar-logo">
-                    <img src="assets/logo.jpg" alt="logo">
+                    <img src="../../public/assets/logo.jpg" alt="logo">
                 </a>
                 <button class="toggler sidebar-toggler">
                     <i class='bx bx-chevron-left'></i>
@@ -42,7 +42,7 @@
     
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="ListeCourrs.html" class="nav-link">
                             <i class='bx bx-list-ul' ></i>
                             <span class="nav-label ">Liste Cours</span>
                             <span class="nav-tooltip ">Liste Cours</span>
@@ -50,7 +50,7 @@
     
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="ListeAbsence.html" class="nav-link">
                             <i class='bx bx-list-ul' ></i>
                             <span class="nav-label ">Liste Absences</span>
                             <span class="nav-tooltip ">Liste Absences</span>
@@ -62,7 +62,7 @@
                    <!--Second bottom nav-->
                    <ul class="nav-list secondary-nav">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="index.html" class="nav-link">
                                 <i class='bx bx-log-out' ></i>
                                 <span class="nav-label ">Logout</span>
                             </a>
@@ -72,7 +72,7 @@
                     </ul>
             </nav>
         </aside>
-        <div class="mt-16">
+        <div class=" absolute  mt-10 mx-64 ">
             <h2 class="text-lg font-medium mx-5 mt-8 mb-5">Liste Cours</h2>
             <form class="mx-4 mb-5" action="">
                 <select class="w-32 mx-2 h-9 border" name="" id="">
@@ -83,7 +83,7 @@
             <div class="w-full  items-center justify-center px-16">
                 <table class="w-full border mx-16 mt-2">
                     <thead class="bg-red-800">
-                        <tr>
+                        <tr  >
                             <th scope="col" class="text-white px-6 py-3">
                                 Professeur
                             </th>
@@ -101,8 +101,10 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody>
-                        <tr class="border">
+                    <tbody id="tBodyCours">
+                      
+<!--
+                        <tr class="border    hover:bg-gray-200">
                             <td scope="row" class="px-6 py-4">
                                 Ibrahima Diop
                             </td>
@@ -126,7 +128,7 @@
                             </td>
 
                         </tr>
-                        <tr class="border">
+                        <tr class="border   hover:bg-gray-200">
                             <td scope="row" class="px-6 py-4">
                                 Ibrahima Diop
                             </td>
@@ -150,7 +152,7 @@
                             </td>
 
                         </tr>
-                        <tr class="">
+                        <tr class="hover:bg-gray-200">
                             <td scope="row" class="px-6 py-4">
                                 Ibrahima Diop
                             </td>
@@ -174,6 +176,7 @@
                             </td>
 
                         </tr>
+                    -->
                     </tbody>
                 </table>
                 <div class="">
@@ -229,7 +232,7 @@
                         </div>
 
                         <!-- Modal body -->
-                        <div class="p-4 md:p-5">
+                        <!-- <div class="p-4 md:p-5">
                             <div class="w-full ">
                                 <div class="w-48 h-32 border rounded bg-">
                                     <h2 class="text-lg">Titre : </h2><span class="text-gray">ALgo</span> 
@@ -241,11 +244,63 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+            <div class="p-4 md:p-5 flex" >
+                <div class="w-full m-2">
+                    <div class="w-52 h-40  border shadow-xl">
+                        <div class="flex">
+                            <h2 class="text-lg  font-bold  ml-1 ">Titre : </h2>
+                             <span class="text-gray mt-1 mx-2">ALgo</span>
 
+                        </div>
+                        <div class="flex">
+                           
+                            <h2 class="text-lg font-bold   ml-1 ">Date : </h2>
+                            <span class="text-gray  mt-1 mx-2">12/02/202</span>
+
+                        </div>
+                        <div class="flex">
+                             <h2 class="text-lg font-bold  ml-1 ">Heure Debut :</h2>
+                             <span class="text-gray ">20heures</span>
+                            </div>
+                        <div class="flex">
+                            <h2 class="text-lg  font-bold  ml-1  ">Heure Fin :</h2>
+                                </h2> <span class="text-gray  mt-1  mx-2">21heures</span>
+
+                        </div>
+                      
+                    </div>
+                </div>
+                <div class="w-full m-2  ">
+                    <div class="w-52 h-40  border shadow-xl">
+                        <div class="flex">
+                            <h2 class="text-lg  font-bold  ml-1 ">Titre : </h2>
+                             <span class="text-gray mt-1 mx-2">PHP</span>
+
+                        </div>
+                        <div class="flex">
+                           <h2 class="text-lg font-bold   ml-1 ">Date : </h2>
+                            <span class="text-gray  mt-1 mx-2">12/02/202</span>
+
+                        </div>
+                        <div class="flex ">
+                            <h2 class="text-lg font-bold  ml-1 ">Heure Debut:</h2>
+                             <span class="text-gray ">19heures</span>
+
+
+                        </div>
+                        <div class="flex">
+                            <h2 class="text-lg  font-bold  ml-1  ">Heure Fin :</h2>
+                                </h2> <span class="text-gray  mt-1  mx-2">20heures</span>
+
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="../../src/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
 </body>
 

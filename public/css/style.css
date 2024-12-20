@@ -126,7 +126,7 @@ transform: rotate(180deg);
     position: absolute;
      top: 2px;
     opacity: 0;
-    /* display: none ; */
+    display: none ;
     pointer-events: none;
     left: calc(105%);
     color: #151A2D;
@@ -145,7 +145,6 @@ transform: rotate(180deg);
 .sidebar-nav .nav-item:hover .nav-tooltip{
     opacity: 1;
     pointer-events: auto;
-    /* display: none; */
     transform: translateY(50%);
     transition: 0.4s ease;
 }
