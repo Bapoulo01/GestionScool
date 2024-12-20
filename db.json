@@ -54,6 +54,7 @@
     {
       "idCours": 1,
       "module": "UML",
+      "nbrHeure": "20 heures",
       "idClasse": 1,
       "idSemestre": 1,
       "idProf": 1
@@ -61,6 +62,7 @@
     {
       "idCours": 2,
       "module": "UI/UX",
+      "nbrHeure": "20 heures",
       "idClasse": 2,
       "idSemestre": 1,
       "idProf": 2
@@ -68,6 +70,7 @@
     {
       "idCours": 3,
       "module": "Java",
+      "nbrHeure": "20 heures",
       "idClasse": 1,
       "idSemestre": 2,
       "idProf": 1
@@ -75,6 +78,7 @@
     {
       "idCours": 4,
       "module": "Python",
+      "nbrHeure": "20 heures",
       "idClasse": 3,
       "idSemestre": 2,
       "idProf": 2
