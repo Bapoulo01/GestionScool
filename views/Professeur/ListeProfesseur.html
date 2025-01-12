@@ -60,7 +60,7 @@
     
                     </li>
                     <li class="nav-item">
-                        <a href="ListeProfesseur.html" class="nav-link">
+                        <a href="../Professeur/ListeProfesseur.html" class="nav-link">
                             <i class='bx bx-list-ul' ></i>
                             <span class="nav-label ">Listes Professeurs</span>
                             <span class="nav-tooltip ">Listes Professeurs</span>
@@ -68,7 +68,7 @@
     
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="../Module/ListeModule.html" class="nav-link">
                             <i class='bx bx-list-ul' ></i>
                             <span class="nav-label ">Listes Modules</span>
                             <span class="nav-tooltip ">Listes Modules</span>
@@ -121,12 +121,20 @@
         <div class=" absolute  mt-20 mx-64">
             <div class="flex justify-between ">
             <h2 class="text-lg font-medium mx-5 mt-3 mb-5">Liste des Professeurs</h2>
-                       <button class="border bg-blue-700 rounded w-16 h-8 text-white"> Ajouter</button>
+                        <a href="../Professeur/Ajout.html">
+                       <button class="border bg-sky-700 rounded w-20 h-8 text-white">
+                        Ajouter</button>
+                    </a>
             </div>
+            <form class="mx-4 mb-5" action="">
+                <select class="w-32 mx-2 h-9 border" name="" id="">
+                    <option value="">Specialite</option>
+                </select>
+                <button class=" w-10 h-8 bg-sky-700 rounded text-white font-bold">OK</button>
+            </form>
            
-           
-             <div id="ListeCours"class="w-full  items-center justify-center px-16"> 
-                <table class="w-full border mx-16 mt-2">
+             <div id="ListeCours"class="w-full  items-center justify4-center min-h-screen px-16 px-16"> 
+                <table class="w-full border mx-16 mt-2  mb-8">
                     <thead class="bg-red-800">
                         <tr>
                             <th scope="col" class="text-white px-6 py-3">
@@ -203,7 +211,7 @@
                         </tr> 
                     </tbody>
                 </table>
-                <!-- <div class="">
+                <div class="">
                     <nav class="flex items-center justify-center mt-2" aria-label="Page navigation example">
                         <ul class="inline-flex -space-x-px text-sm">
                             <li>
@@ -223,7 +231,7 @@
                             </li>
                         </ul>
                     </nav>
-                </div>      -->
+                </div>     
             </div> 
  <!-- <div class="flex ">
     <div  class="border-2 bg-white-900 w-50 h-50  rounded ">

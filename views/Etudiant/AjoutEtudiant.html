@@ -118,87 +118,64 @@
                     </ul>
             </nav>
         </aside>
-        <div class=" absolute  mt-20 mx-64">
-            <h2 class="text-lg font-medium mx-5 mt-3 mb-5">Liste Modules</h2>
-
-            <div class="mb-8" >
-                <label for="">Module</label>
-                <input type="text" class="border w-30 h-10">
-            <button class="border bg-blue-700 rounded w-16 h-8 text-white"> Ajouter</button>
-            </div>
-           
-           
-             <div id="ListeCours"class="w-full  items-center justify-center px-16 m-8"> 
-                <table class="w-full border mx-16 mt-2">
-                    <thead class="bg-red-800">
-                        <tr>
-                            <th scope="col" class="text-white px-6 py-3">
-                                Libele
-                            </th>
-                           
-                            <th scope="col" class="text-white px-6 py-3">
-                                Action
-                            </th>
-                            <!-- <th scope="col" class="text-white px-6 py-3">
-                                Action
-                            </th> -->
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="border hover:bg-gray-100">
-                         
-                            <td class="px-6 py-4">
-                                21 heures
-                            </td>
-                            
-                                <td class="px-6 py-4 text-blue-700"><a href="Ajout.html">Suprimer</a></td>
-                            
-                        </tr>
-                        <tr class="border hover:bg-gray-100">
-                          
-                            <td class="px-6 py-4">
-                                22 heures
-                             </td>
-                            
-                                <td class="px-6 py-4 text-blue-700"><a href="Ajout.html">Suprimer</a></td> 
-                            
-                        </tr>
+        <main class="flex-1 p-10 m-10">
+            <h2 class="text-lg font-medium mb-6 text-center">Inscrire un Etudiant</h2>
+            <form action="" class="space-y-6">
+                <div class="flex space-x-8">
+                    <div class="flex-1">
+                        <label for="Prenom" class="block mb-2 font-medium">Prénom</label>
+                        <input 
+                            type="text" 
+                            id="Prenom" 
+                            class="border w-full px-4 py-2 rounded" 
+                            placeholder="Entrez votre prénom">
+                    </div>
+                    <div class="flex-1">
+                        <label for="Nom" class="block mb-2 font-medium">Nom</label>
+                        <input 
+                            type="text" 
+                            id="Nom" 
+                            class="border w-full px-4 py-2 rounded" 
+                            placeholder="Entrez votre nom">
+                    </div>
+                </div>
+                <div class="flex space-x-8">
+                    <div class="flex-1">
+                        <label for="login" class="block mb-2 font-medium">Login</label>
+                        <input 
+                            type="text" 
+                            id="login" 
+                            class="border w-full px-4 py-2 rounded" 
+                            placeholder="Entrez votre login">
+                    </div>
+                    <div class="flex-1">
+                        <label for="Password" class="block mb-2 font-medium">Password</label>
+                        <input 
+                            type="password" 
+                            id="Password" 
+                            class="border w-full px-4 py-2 rounded" 
+                            placeholder="Entrez votre mot de passe">
+                    </div>
+                </div>
+                <div class="flex space-x-8">
+                    <div class="flex-1">
+                        <label for="Adresse" class="block mb-2 font-medium">Adresse</label>
+                        <input 
+                            type="text" 
+                            id="Adresse" 
+                            class="border w-full px-4 py-2 rounded" 
+                            placeholder="Entrez votre grade">
+                    </div>
+                    <div class="flex-1">
+                        <label for="Classe" class="block mb-2 font-medium">Classe</label>
+                           <select name="" id="" disabled="disabled "class="border w-full px-4 py-2 rounded" ></select>
                        
-                    </tbody>
-                </table>
-                <div class="">
-                    <nav class="flex items-center justify-center mt-2" aria-label="Page navigation example">
-                        <ul class="inline-flex -space-x-px text-sm">
-                            <li>
-                            <a href="#" class="flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500 bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Previous</a>
-                            </li>
-                            <li>
-                            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</a>
-                            </li>
-                            <li>
-                            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">2</a>
-                            </li>
-                            <li>
-                                <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">3</a>
-                                </li>
-                            <li>
-                            <a href="#" class="flex items-center justify-center px-3 h-8 leading-tight text-gray-500 bg-white border border-gray-300 rounded-e-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Next</a>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>     
-            </div> 
- <!-- <div class="flex ">
-    <div  class="border-2 bg-white-900 w-50 h-50  rounded ">
-        <h1>Titre:</h1>
-        <h2>Date:</h2>
-        <h3>Heur Debut:</h3>
-        <h3>Heur Fin: </h3>
-         <button class=" w-40 h-10 rounded  bg-white font-bold mx-5 mt-5 text-blue-800">voir plus </button> -->
-
-     <!-- </div>  -->
-    
- </div>
+                    </div>
+                </div>
+                <button class="border bg-blue-700 mx-auto block w-32 h-10 text-white rounded">Cree</button>
+              
+            </form>
+        </main>
            
 
 
