@@ -1,48 +1,28 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mes Cours</title>
-    <link rel="stylesheet" href="../../public/css/style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
-    <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mes Cours</title>
+        <link rel="stylesheet" href="../../public/css/style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=home" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
 <body>
     <header class="header  w-full border h-16 bg-red-800 flex items-center justify-between fixed top-0">
         <div class="mx-5">
             <h2 class="text-white text-lg font-bold">Ecole 221</h2>
         </div>
         <div class="mx-5">
-            <img class="w-10 h-10" src="../../public/assets/user.png" alt="">
+            <img class="w-10 h-10" src="../../../public/assets/user.png" alt="">
         </div>
     </header>
     <div class="w-full flex  h-full fixed ">
-        <!-- <div class="Dashboard w-52 h-full bg-red-800">
-            <ul class=" w-48 h-4/6 mx-2 mt-2 mb-7 ">
-                <li class=" mt-5  text-red-800 text-lg font-bold bg-white rounded mx-2 flex items-center mb-5 py-1">
-                    <span class="material-symbols-outlined">
-                    home
-                    </span>
-                    <span class="">Dashboard</span></li>
-                <li class="text-white text-lg font-bold flex items-center mx-2 mb-5 py-1 hover:bg-white rounded hover:text-red-800 ">
-                    <span class="material-symbols-outlined">
-                        l
-                        </span>
-                        <a href="ListeCourrs.html"></a>
-                    Mes Cours
-                </li>
-                <li class="text-white text-lg font-bold flex items-center mx-2 py-1 hover:bg-white rounded hover:text-red-800">Absences</li>
-            </ul>
-            <button class=" w-40 h-10 rounded  bg-white font-bold mx-5 mt-5 text-red-800">Se deconnecter</button>
-
-        </div> -->
         <aside class="sidebar">
             <!--sidebar header-->
             <header class="sidebar-header">
                 <a href="#" class="sidebar-logo">
-                    <img src="../../public/assets/logo.jpg" alt="logo">
+                    <img src="../../../public/assets/logo.jpg" alt="logo">
                 </a>
                 <button class="toggler sidebar-toggler">
                     <i class='bx bx-chevron-left'></i>
@@ -60,48 +40,18 @@
     
                     </li>
                     <li class="nav-item">
-                        <a href="../Professeur/ListeProfesseur.html" class="nav-link">
+                        <a href="../cours/ListeCours.html" class="nav-link">
                             <i class='bx bx-list-ul' ></i>
-                            <span class="nav-label ">Listes Professeurs</span>
-                            <span class="nav-tooltip ">Listes Professeurs</span>
+                            <span class="nav-label ">Liste Cours</span>
+                            <span class="nav-tooltip ">Liste Cours</span>
                         </a>
     
                     </li>
                     <li class="nav-item">
-                        <a href="../Module/ListeModule.html" class="nav-link">
-                            
-                    
+                        <a href="../Absence/ListeAbsence.html" class="nav-link">
                             <i class='bx bx-list-ul' ></i>
-                            <span class="nav-label ">Listes Modules</span>
-                            <span class="nav-tooltip ">Listes Modules</span>
-                        </a>
-    
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a href="../Annees/ListeAnnees.html" class="nav-link">
-                            <i class='bx bx-list-ul' ></i>
-                            <span class="nav-label ">Listes Annees</span>
-                            <span class="nav-tooltip ">Listes Annees</span>
-                        </a>
-    
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="../Classe/ListesClasse.html" class="nav-link">
-                            <i class='bx bx-list-ul' ></i>
-                            <span class="nav-label ">Listes Classes</span>
-                            <span class="nav-tooltip ">Listes Classes</span>
-                        </a>
-    
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="../Etudiant/ListeEtudant.html" class="nav-link">
-                            <i class='bx bx-list-ul' ></i>
-                            <span class="nav-label ">Listes Etudiants</span>
-                            <span class="nav-tooltip ">Listes Etudiants</span>
+                            <span class="nav-label ">Liste Absences</span>
+                            <span class="nav-tooltip ">Liste Absences</span>
                         </a>
     
                     </li>
@@ -234,20 +184,7 @@
                     </nav>
                 </div>     
             </div> 
- <!-- <div class="flex ">
-    <div  class="border-2 bg-white-900 w-50 h-50  rounded ">
-        <h1>Titre:</h1>
-        <h2>Date:</h2>
-        <h3>Heur Debut:</h3>
-        <h3>Heur Fin: </h3>
-         <button class=" w-40 h-10 rounded  bg-white font-bold mx-5 mt-5 text-blue-800">voir plus </button> -->
-
-     <!-- </div>  -->
-    
  </div>
-           
-
-
         </div>
        
     </div>

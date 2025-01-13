@@ -1,0 +1,53 @@
+{
+    "role": [
+      { "id_role": 1, "nom_Role": "ROLE_RP" },
+      { "id_role": 2, "nom_Role": "ROLE_AC" },
+      { "id_role": 3, "nom_Role": "ROLE_PROF" },
+      { "id_role": 4, "nom_Role": "ROLE_ETUDIANT" }
+    ],
+    "Grade": [
+      { "id_grade": 1, "Libelle_grade": "Licence" },
+      { "id_grade": 2, "Libelle_grade": "Master" },
+      { "id_grade": 3, "Libelle_grade": "Doctorat" }
+    ],
+    "spécialité": [
+      { "id_specialite": 1, "nom_specialite": "Algo" },
+      { "id_specialite": 2, "nom_specialite": "Maths" },
+      { "id_specialite": 3, "nom_specialite": "Design" },
+      { "id_specialite": 4, "nom_specialite": "SGBD" }
+    ],
+    "users": [
+      { "id": 1, "Nom": "Ba", "Prenom": "Amadou", "login": "amadou@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Keur Massar", "id_role": 3, "id_grade": 2, "id_specialite": 1 },
+      { "id": 2, "Nom": "Sene", "Prenom": "Awa", "login": "awa@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Liberte 6", "id_role": 3, "id_grade": 2, "id_specialite": 3 },
+      { "id": 3, "Nom": "Mane", "Prenom": "Ibrahima", "login": "ibrahim@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Narry Tally", "id_role": 3, "id_grade": 1, "id_specialite": 2 },
+      { "id": 4, "Nom": "Thiam", "Prenom": "Fatou", "login": "fatou@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Arafat", "id_role": 3, "id_grade": 1, "id_specialite": 3 },
+      { "id": 5, "Nom": "Ba", "Prenom": "Badara", "login": "badoo@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Ouakam", "id_role": 3, "id_grade": 2, "id_specialite": 4 },
+      { "id": 6, "Nom": "Sarr", "Prenom": "Gorgui", "login": "gorgui@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Keur massar", "id_role": 1, "id_grade": null, "id_specialite": null },
+      { "id": 7, "Nom": "Ba", "Prenom": "Aliou", "login": "aliou@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Diakhay 2", "id_role": 1, "id_grade": null, "id_specialite": null },
+      { "id": 8, "Nom": "Gavo Dia", "Prenom": "Moussa", "login": "moussa@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "mermoz", "id_role": 2, "id_grade": null, "id_specialite": null },
+      { "id": 9, "Nom": "Diatta", "Prenom": "Issa", "login": "issa@gmail.com", "mdp": "passer123", "matricule": null, "Adresse": "Medina", "id_role": 2, "id_grade": null, "id_specialite": null },
+      { "id": 10, "Nom": "Thiam", "Prenom": "Khalil", "login": "khalil@gmail.com", "mdp": "passer123", "matricule": "2022-thiam-URL", "Adresse": "Sicap", "id_role": 4, "id_grade": null, "id_specialite": null },
+      { "id": 11, "Nom": "Sene", "Prenom": "Awa", "login": "eva@gmail.com", "mdp": "passer123", "matricule": "2022-sene-URL", "Adresse": "Guediawaye", "id_role": 4, "id_grade": null, "id_specialite": null },
+      { "id": 12, "Nom": "Mane", "Prenom": "Ibrahima", "login": "brahim@gmail.com", "mdp": "passer123", "matricule": "2022-mane-BVB", "Adresse": "Rufisque", "id_role": 4, "id_grade": null, "id_specialite": null },
+      { "id": 13, "Nom": "Camara", "Prenom": "Lamine", "login": "lamine@gmail.com", "mdp": "passer123", "matricule": "2022-cam-ADC", "Adresse": "Bargny", "id_role": 4, "id_grade": null, "id_specialite": null },
+      { "id": 14, "Nom": "Sow", "Prenom": "Omar", "login": "omar@gmail.com", "mdp": "passer123", "matricule": "2022-om-KNO", "Adresse": "Dieupeul", "id_role": 4, "id_grade": null, "id_specialite": null }
+    ],
+    "Modules": [
+      { "id_module": 1, "Libelle_module": "Algo" },
+      { "id_module": 2, "Libelle_module": "Maths" },
+      { "id_module": 3, "Libelle_module": "Design" },
+      { "id_module": 4, "Libelle_module": "SGBD" }
+    ],
+    "Cours": [
+      { "Id_Cours": 1, "id_module": 1, "Heure_total": "40:00:00" },
+      { "Id_Cours": 2, "id_module": 3, "Heure_total": "40:00:00" },
+      { "Id_Cours": 3, "id_module": 4, "Heure_total": "40:00:00" },
+      { "Id_Cours": 4, "id_module": 1, "Heure_total": "40:00:00" },
+      { "Id_Cours": 5, "id_module": 2, "Heure_total": "40:00:00" }
+    ],
+    "Semestre": [
+      { "id_Semestre": 1, "Libelle_Semestre": "Semestre 1" },
+      { "id_Semestre": 2, "Libelle_Semestre": "Semestre 2" }
+    ]
+  }
+  

@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mes Cours</title>
-    <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="stylesheet" href="../../../public/css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=home" />
     <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -15,29 +15,10 @@
             <h2 class="text-white text-lg font-bold">Ecole 221</h2>
         </div>
         <div class="mx-5">
-            <img class="w-10 h-10" src="../../public/assets/user.png" alt="">
+            <img class="w-10 h-10" src="../../../public/assets/user.png" alt="">
         </div>
     </header>
     <div class="w-full flex  h-full fixed ">
-        <!-- <div class="Dashboard w-52 h-full bg-red-800">
-            <ul class=" w-48 h-4/6 mx-2 mt-2 mb-7 ">
-                <li class=" mt-5  text-red-800 text-lg font-bold bg-white rounded mx-2 flex items-center mb-5 py-1">
-                    <span class="material-symbols-outlined">
-                    home
-                    </span>
-                    <span class="">Dashboard</span></li>
-                <li class="text-white text-lg font-bold flex items-center mx-2 mb-5 py-1 hover:bg-white rounded hover:text-red-800 ">
-                    <span class="material-symbols-outlined">
-                        l
-                        </span>
-                        <a href="ListeCourrs.html"></a>
-                    Mes Cours
-                </li>
-                <li class="text-white text-lg font-bold flex items-center mx-2 py-1 hover:bg-white rounded hover:text-red-800">Absences</li>
-            </ul>
-            <button class=" w-40 h-10 rounded  bg-white font-bold mx-5 mt-5 text-red-800">Se deconnecter</button>
-
-        </div> -->
         <aside class="sidebar">
             <!--sidebar header-->
             <header class="sidebar-header">
@@ -69,7 +50,6 @@
                     </li>
                     <li class="nav-item">
                         <a href="../Module/ListeModule.html" class="nav-link">
-                        
                             <i class='bx bx-list-ul' ></i>
                             <span class="nav-label ">Listes Modules</span>
                             <span class="nav-tooltip ">Listes Modules</span>
@@ -120,34 +100,51 @@
             </nav>
         </aside>
         <div class=" absolute  mt-20 mx-64">
-            <h2 class="text-lg font-medium mx-5 mt-3 mb-5">Liste Annees</h2>
+            <div class="flex justify-between ">
+            <h2 class="text-lg font-medium mx-5 mt-3 mb-5">Liste des Etudiants</h2>
+            <h2 class="text-lg font-medium mx-5 mt-3 mb-5"> Annees Scolaire:2023/2024</h2>
+            
+           
+        </div>
+        <div class="flex justify-end m-4">
+            <a href="../Etudiant/AjoutEtudiant.html">
+            <button class="border bg-sky-700 rounded w-16 h-8 text-white place-self-end"> incrire</button>
 
-            <div class="border  w-96 h-24 my-8 shadow-inner">
-                <h1 class=" flex mx-10 my-2 ">Definir l'Annees Scholair</h1>
-            <form class="my-4  mx-4" action="">
-                <select class="w-64 mx-2 h-9 border" name="" id="" >
-                    <option value="">(2023-2024) </option>
-                </select>
-                <button class=" w-10 h-8 bg-sky-700 rounded text-white font-bold">OK</button>
-            </form>
 
-            </div>
-        
+            </a>
+
+        </div>
+        <form class="mx-2 mb-5" action="">
+            <select class="w-32 mx-2 h-9 border" name="" id="">
+                <option value="">Matricule</option>
+            </select>
+            <button class=" w-10 h-8 bg-sky-700 rounded text-white font-bold">OK</button>
+        </form>
            
            
              <div id="ListeCours"class="w-full  items-center justify-center px-6"> 
-                <table class="w-full border mx-8 mt-2  w-1/2  ">
+                <table class="w-full border mx-16 mt-2  w-1/2  ">
                     <thead class="bg-red-800">
                         <tr>
                             <th scope="col" class="text-white px-6 py-3">
-                                Libele
+                                Prenom
                             </th>
                             <th scope="col" class="text-white px-6 py-3">
-                                Statut
+                                Nom
+                            </th>
+                            <th scope="col" class="text-white px-6 py-3">
+                                Adresse
+                            </th>
+                            <th scope="col" class="text-white px-6 py-3">
+                                Matricule
                             </th>
                            
-                           
-                            
+                            <th scope="col" class="text-white px-6 py-3">
+                                Classe
+                            </th>
+                            <th scope="col" class="text-white px-6 py-3">
+                                Plus
+                            </th>
                         </tr>
                     </thead>
                     <tbody>
@@ -155,7 +152,18 @@
                             <td scope="row" class="px-6 py-4">
                                 Algo
                             </td>
-                           
+                            <td class="px-8 py-4">
+                                12/01/2024
+                            </td>
+                            <td class="px-12 py-4">
+                                20 heures
+                            </td>
+                            <td class="px-6 py-4">
+                                21 heures
+                            </td>
+                            <td class="px-6 py-4">
+                                21 heures
+                            </td>
                            
                            
                             
@@ -167,7 +175,20 @@
                             <td scope="row" class="px-6 py-4">
                                 PHP
                             </td>
-                          
+                            <td class="px-8 py-4">
+                                11/02/2024
+                            </td>
+                            <td class="px-12 py-4">
+                                20 heures
+                            </td>
+                            <td class="px-6 py-4">
+                                22 heures
+                             </td>
+                             <td class="px-6 py-4">
+                                22 heures
+                             </td>
+                            
+                            
                                 <td class="px-6 py-4 text-blue-700"><a href="Ajout.html">Modifier</a></td> 
                             
                         </tr>
@@ -175,7 +196,19 @@
                             <td scope="row" class="px-6 py-4">
                                 Ibrahima Diop
                             </td>
-                          
+                            <td class="px-8 py-4">
+                                Algo
+                            </td>
+                            <td class="px-12 py-4">
+                                20 heures
+                            </td>
+                            <td class="px-6 py-4">
+                                Semestre 1
+                            </td>
+                            <td class="px-6 py-4">
+                                21 heures
+                            </td>
+                           
                                 <td class="px-6 py-4 text-blue-700"><a href="Ajout.html">Modifier</a></td>
                             
                         </tr> 
